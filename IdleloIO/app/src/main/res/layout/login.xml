@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_margin="4dp"
-            android:text="Sign in with Google+"
+            android:text="Sign up with Google+"
             android:background="#fc020e" />
         <Button
             android:id="@+id/btnFb"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_margin="4dp"
-            android:text="Sign in with Facebook"
+            android:text="Sign up with Facebook"
             android:background="#433bbe" />
         <Button
             android:id="@+id/btnTwitter"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:layout_margin="4dp"
-            android:text="Sign in with Twitter"
+            android:text="Sign up with Twitter"
             android:background="#74b7e0" />
     </LinearLayout>
 
