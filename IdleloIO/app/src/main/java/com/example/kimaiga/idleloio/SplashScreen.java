@@ -6,8 +6,10 @@ package com.example.kimaiga.idleloio;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 
-public class SplashScreen extends MainActivity {
+public class SplashScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub

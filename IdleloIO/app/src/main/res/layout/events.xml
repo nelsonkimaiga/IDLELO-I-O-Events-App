@@ -4,19 +4,38 @@
     android:layout_height="match_parent"
     android:weightSum="1">
     <!-- A CardView that contains a TextView -->
+
     <TextView
         android:id="@+id/info_twitter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Twitter Feed"
-        android:layout_weight="0.47" />
+        android:layout_weight="0.47"
+        android:textSize="20dp"
+        />
 
     <TextView
         android:id="@+id/info_information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Information"
-        android:layout_weight="0.37" />
+        android:layout_weight="0.47"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/info_agenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agenda"
+        android:layout_weight="0.47"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/info_speakers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speakers"
+        android:layout_weight="0.37"
+        android:textSize="20dp"/>
 
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -36,16 +55,6 @@
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 
-    <TextView
-        android:id="@+id/info_agenda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Agenda"/>
 
-    <TextView
-        android:id="@+id/info_speakers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Speakers"/>
 
 </LinearLayout>
