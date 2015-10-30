@@ -19,6 +19,7 @@
             <item name="android:shadowRadius">2</item>
         </style>
     <string name="title_activity_login">Login</string>
+    <string name="title_activity_events_key_detail">EventsKeyDetail</string>
 
     </resources>
 
