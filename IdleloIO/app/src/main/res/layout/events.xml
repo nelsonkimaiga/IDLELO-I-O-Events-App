@@ -1,60 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="1">
-    <!-- A CardView that contains a TextView -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:layout_margin="8dp">
 
-    <TextView
-        android:id="@+id/info_twitter"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Twitter Feed"
-        android:layout_weight="0.47"
-        android:textSize="20dp"
-        />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/info_information"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Information"
-        android:layout_weight="0.47"
-        android:textSize="20dp"/>
-
-    <TextView
-        android:id="@+id/info_agenda"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Agenda"
-        android:layout_weight="0.47"
-        android:textSize="20dp"/>
-    <TextView
-        android:id="@+id/info_speakers"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Speakers"
-        android:layout_weight="0.37"
-        android:textSize="20dp"/>
-
-    <android.support.v7.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/Speakers"
-        android:layout_gravity="center"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        card_view:cardCornerRadius="4dp">
-
-        <RelativeLayout
+        <ImageView
+            android:id="@+id/thumbnail"
             android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            >
+            android:layout_below="@+id/thumbnail"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Speakers"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp" />
 
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
 
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-
-
-</LinearLayout>
