@@ -25,7 +25,9 @@
         android:padding="10dp"
         android:layout_margin="4dp"
         android:text="Sign in with Twitter"
-        android:background="#4a98b9" />
+        android:background="#4a98b9"
+        android:textStyle="normal"
+        />
     <Button
         android:id="@+id/btnFb"
         android:layout_width="match_parent"
