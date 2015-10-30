@@ -20,6 +20,7 @@
         </style>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_events_key_detail">EventsKeyDetail</string>
+    <string name="title_activity_agenda">Agenda</string>
 
     </resources>
 
