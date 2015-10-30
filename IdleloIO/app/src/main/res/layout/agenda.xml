@@ -13,10 +13,31 @@
         android:layout_margin="8dp"
         card_view:cardCornerRadius="4dp">
 
-        <TextView
-            android:id="@+id/info_text"
+  <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android: android:text=""/>
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="8 am - 9 am"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="jfkdjkdjf"
+            android:textColor="#666"
+            android:textSize="14dp" />
+  </RelativeLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>
