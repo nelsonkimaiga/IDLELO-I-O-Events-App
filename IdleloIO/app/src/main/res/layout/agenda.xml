@@ -21,7 +21,6 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/card_view"
             android:maxLines="3"
             android:padding="8dp"
             android:text="8 am - 9 am"
@@ -35,9 +34,83 @@
             android:layout_below="@+id/title"
             android:maxLines="3"
             android:padding="8dp"
-            android:text="jfkdjkdjf"
+            android:text="Checking and breakfast by conference members"
             android:textColor="#666"
             android:textSize="14dp" />
   </RelativeLayout>
     </android.support.v7.widget.CardView>
+    <!-- card two-->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="10 am - 12 PM"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lunch"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Key note address"
+                android:textColor="#666"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+<!--card three-->
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/agenda_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="1:30 - 2:00"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agenda_three"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Happy Hour"
+                android:textColor="#666"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
 </LinearLayout>
