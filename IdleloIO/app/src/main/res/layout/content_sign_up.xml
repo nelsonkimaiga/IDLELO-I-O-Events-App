@@ -35,7 +35,8 @@
         android:padding="10dp"
         android:layout_margin="4dp"
         android:text="Sign in with Facebook"
-        android:background="#131c4a" />
+        android:background="#131c4a"
+        />
     <Button
         android:id="@+id/btnTwitter"
         android:layout_width="match_parent"
