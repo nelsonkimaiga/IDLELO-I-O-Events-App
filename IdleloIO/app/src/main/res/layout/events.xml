@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="horizontal" >
-    <ImageView
-        android:id="@+id/icon"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="5dp"/>
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <!-- A CardView that contains a TextView -->
     <TextView
-        android:id="@+id/Itemname"
+        android:id="@+id/info_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twitter Feed"
+        android:layout_weight="0.47" />
+
+    <TextView
+        android:id="@+id/info_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:layout_weight="0.37" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/Speakers"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/info_agenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:paddingTop="5dp"/>
+        android:text="Agenda"/>
+
+    <TextView
+        android:id="@+id/info_speakers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speakers"/>
+
 </LinearLayout>
