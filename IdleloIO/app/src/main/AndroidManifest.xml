@@ -52,6 +52,11 @@
             android:label="@string/title_activity_twitter_feed"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Information"
+            android:label="@string/title_activity_information"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
