@@ -24,6 +24,7 @@
     <string name="title_activity_speakers">Speakers</string>
     <string name="title_activity_twitter_feed">TwitterFeed</string>
     <string name="title_activity_information">Information</string>
+    <string name="title_activity_venue">Venue</string>
 
     </resources>
 
